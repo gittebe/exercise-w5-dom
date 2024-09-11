@@ -1,21 +1,34 @@
 body {
-    font-family: sans-serif;
-  }
-  
-  h1 {
-    color: black;
-  }
-  
-  p {
-    color: black;
-  }
-  
-  .box {
-    height: 300px;
-    background-color: lightgreen;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-  }
-  
+  font-family: sans-serif;
+}
+
+h1 {
+  color: black;
+}
+
+p {
+  color: black;
+}
+
+.box {
+  height: 300px;
+  background-color: grey;
+  transition: background-color 0.5s ease, color 0.5s ease;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.dark {
+  background-color: grey;
+  color: white
+}
+
+.light {
+  background-color: beige;
+}
+
+.crazy {
+  background-color: rgb(235, 19, 174);
+}
